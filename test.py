@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*- #используется в том случае если есть текст на русском языке
 
 import time, re
+
+import pytest
 from group import Group
 from application import Application
-import pytest
-
 
 @pytest.fixture() #эта метка превращает фикстуру в инициализатор фикстуры
 def app(request):
